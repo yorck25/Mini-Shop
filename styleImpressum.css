@@ -1,0 +1,124 @@
+/*--Schriftart:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif--*/
+/*--Schriftfarbe:rgb(78, 78, 78)--*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #eceff1;
+}
+
+section {
+    min-height: 100%;
+    background-color: #eceff1;
+}
+
+/*--------Überschriften( H )--------*/
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: #2a3049;
+    margin-bottom: -15px;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: #e79e00;
+}
+
+h4{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(78, 78, 78);
+    margin-top: 7%;
+}
+
+/*--------Header---------*/
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    min-height: 13%;
+    max-height: 20%;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: #f3f5f7;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+  
+#logo {
+    width: 330px;
+    float: left;
+    margin: 13px 0 0 50px;
+}
+  
+#logo img {
+    width: 100%;
+}
+  
+#logo:hover {
+    opacity: 0.9;
+    transition: 0.6s;
+}
+  
+header nav {
+    float: right;
+    margin: 18px 50px 0 0;
+}
+  
+#main-nav ul li {
+    display: flex;
+}
+  
+header nav ul li {
+    color: rgb(78, 78, 78);
+    float: left;
+    margin-left: 36px;
+}
+  
+header nav ul li a {
+    font-size: 34px;
+}
+  
+header nav ul li:hover {
+    padding-top: 5px;
+    transition: 0.3s;
+}
+
+/*--------Impressum---------*/
+
+#Impressum {
+    margin-top: 150px;
+    float: left;
+    margin-left: 3%;
+}
+
+#Impressum a {
+    text-decoration: none;
+    list-style: none;
+    color: #e79e00;
+    font-size: 40px;
+    padding: 0%;
+    float: left;
+}
+
+#hrImpressum {
+   width: 90px;  height: 5px;  background: #676767;  border: 0px;  margin-top: 20px;
+}
+
+#ImpressumDaten { 
+    text-align: left;
+    float: left;
+    margin-top: 3%;
+} 

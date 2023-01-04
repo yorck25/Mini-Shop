@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initiale-scale=1">
+
+    <title>Mini Shop Login</title>
+
+    <link rel="stylesheet" href="styleKonto.css">
+    <link id="logo_icon" rel="shortcut icon" href="./Bilder/M.ico" sizes="16x16" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  </head>
+
+  <body>
+
+    <script src="function.js"></script>
+    <script src="Darkmode.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+    <!----------Header----------------------->
+
+    <header id="Head">
+      <div id="logo">
+        <a href="index.html">
+          <img src="Bilder/Mini Helme Logo.PNG" alt="logo">
+        </a>
+      </div>
+
+      <nav id="main-nav">
+        <ul>
+          <a class="link" href="index.html"><li>Startseite</li></a>
+          <a class="link" href="Konfigurator.html"><li>Konfigurator</li></a>
+          <a class="link" href="#F1 Helme"><li>F1 Helme</li></a>
+          <a class="link" href="Einkaufwagen.html"><li><img src="./Bilder/Icon/einkaufswagen.png" alt="Einkaufwagen"></li></a>
+          <a class="link" href="Konto.html"><li><img src="./Bilder/Icon/konto.png" alt="Konto"></li></a>
+          <a class="link" href="#"><li><img src="./Bilder/Icon/Kontakt.png" alt="Kontakt"></li></a>
+        </ul>
+      </nav>
+    </header>
+
+    <!----------LoginFenster----------------------->
+
+    <form id="LoginFenster">
+      <h1>Melde dich an.</h1>
+
+      <div class="passwort-behaelter">
+        <input type="text" placeholder="Benutzername/Email">
+        <input name="passwort" id="passwort" type="password"
+        class="passwort-feld" placeholder="Passwort">
+      </div>
+
+      <div id=AnmeldenB>
+        <button type="button" onclick="window.location.href='index.html'">Anmelden</button>
+      </div>
+
+      <div id=KontoErstellen>
+        <button type="button" onclick="window.location.href='KontoErstellen.html'">Konto Erstellen</button>
+      </div>
+  
+    </form>
+  </body>
+</html>

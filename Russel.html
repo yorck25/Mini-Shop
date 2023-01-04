@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+
+    <title>Mini Shop</title>
+
+    <link rel="stylesheet" href="Bestellseite.css">
+    <link id="logo_icon" rel="shortcut icon" href="./Bilder/M.ico" sizes="16x16" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+
+  <body>
+
+    <script src="function.js"></script>
+    <script src="Darkmode.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+    <!----------Header----------------------->
+
+    <header id="Head">
+      <div id="logo">
+        <a href="index.html">
+          <img src="Bilder/Mini Helme Logo.PNG" alt="logo">
+        </a>
+      </div>
+
+      <nav id="main-nav">
+        <ul>
+          <a class="link" href="index.html"><li>Startseite</li></a>
+          <a class="link" href="Konfigurator.html"><li>Konfigurator</li></a>
+          <a class="link" href="#F1 Helme"><li>F1 Helme</li></a>
+          <a class="link" href="Einkaufwagen.html"><li><img src="./Bilder/Icon/einkaufswagen.png" alt="Einkaufwagen"></li></a>
+          <a class="link" href="Konto.html"><li><img src="./Bilder/Icon/konto.png" alt="Konto"></li></a>
+          <a class="link" href="#"><li><img src="./Bilder/Icon/Kontakt.png" alt="Kontakt"></li></a>
+        </ul>
+      </nav>
+    </header>
+
+    <!----------ProduktGalerie----------------------->
+
+    <section>
+      <div class="card-wrapper">
+        <div class="card">
+          <!--card left-->
+          <div class = "product-imgs">
+            <div class = "img-display">
+              <div id = "img-showcase">
+                <img id="main_img" src = "./Bilder/Helme/Russel/Russel 1.jpg" alt = "Russel Helm 1">
+              </div>
+            </div>
+            <div class = "img-select">
+              <div class = "img-item">
+                <a onclick="helm1()" href = "#" data-id = "1">
+                  <img src = "./Bilder/Helme/Russel/Russel 1.jpg" alt = "Russel Helm 1">
+                </a>
+              </div>
+              <div class = "img-item">
+                <a onclick="helm2()" href = "#" data-id = "2">
+                  <img src = "./Bilder/Helme/Russel/Russel 2.jpg" alt = "Russel Helm 2">
+                </a>
+              </div>
+              <div class = "img-item">
+                <a onclick="helm3()" href = "#" data-id = "3">
+                  <img src = "./Bilder/Helme/Russel/Russel 3.jpg" alt = "Russel Helm 3">
+                </a>
+              </div>
+              <div class = "img-item">
+                <a onclick="helm4()" href = "#" data-id = "4">
+                  <img src = "./Bilder/Helme/Russel/Russel 4.jpg" alt = "Russel Helm 4">
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--card right-->
+          <div class="produkt-content">
+            <h2 class="Product-title">Russel Helm</h2>
+            <div class="product-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>4.7(21)</span>
+            </div>
+  
+            <div class = "product-price">
+              <p class = "last-price">Old Price: <span>159,99€</span></p>
+              <p class = "new-price">New Price: <span> 127,99(5%)</span></p>
+            </div>
+  
+            <div class="Product-detail">
+              <h3>Alles über den Helm</h3>
+              <p></p>
+              <p></p>
+              <ul> 
+                <li>Größe: <span>1:2</span></li>
+                <li>Kategorie: <span>F1 Helme</span></li>
+                <li>Verfügbarkeit: <span>Auf Lager</span></li>
+                <li>Fahrer: <span>George Russel</span></li>
+                <li>Versandkosten: <span>Kostenlos</span></li>
+              </ul>
+            </div>
+  
+            <div class="purchase-info">
+              <input type="number" min="0" value="1">
+              <button type="button" class="btn">
+                Zum Einkaufswagen hinzufügen
+              </button>
+            </div>
+  
+            <div class="social-links">
+              <p>Teilen Auf:</p>
+              <a href="https://de-de.facebook.com/">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.pinterest.de/">
+                <i class="fab fa-pinterest"></i>
+              </a>
+              <a href = "https://web.whatsapp.com/">
+                <i class = "fab fa-whatsapp"></i>
+              </a>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,303 @@
+/*--Schriftart:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif--*/
+/*--Schriftfarbe:rgb(78, 78, 78)--*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  background-color: #eceff1;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1{
+  color: rgb(78, 78, 78);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 38px;
+}
+
+h2{
+  color: rgb(78, 78, 78);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+}
+
+form{
+  margin-top: 150px;
+  min-height: 100%;
+  background-color: #eceff1;
+}
+.fa-bars {display:none;}
+
+/*--------Header---------*/
+
+header {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  min-height: 13%;
+  max-height: 20%;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: #f3f5f7;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+#logo {
+  width: 330px;
+  float: left;
+  margin: 13px 0 0 50px;
+}
+
+#logo img {
+  width: 100%;
+}
+
+#logo:hover {
+  opacity: 0.9;
+  transition: 0.6s;
+}
+
+header nav {
+  float: right;
+  margin: 18px 50px 0 0;
+}
+
+#main-nav ul li {
+  display: flex;
+}
+
+header nav ul li {
+  color: rgb(78, 78, 78);
+  float: left;
+  margin-left: 36px;
+}
+
+header nav ul li a {
+  font-size: 34px;
+}
+
+header nav ul li:hover {
+  padding-top: 5px;
+  transition: 0.3s;
+}
+
+/*---------LoginFenster--------*/
+
+#LoginFenster form{
+  height: 65%;
+  width: 50%;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #eceff1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.inputs_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#LoginFenster input{
+  height: 64px;
+  width: 240px;
+  margin: 15px;
+  padding: 0px 25px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.212);
+  font-size: 20px;
+  color: #2a3049;
+  transition: 0.2s;
+}
+
+#LoginFenster input:hover{
+  background-color: #b9b9b9;
+}
+
+#LoginFenster input:focus{
+  outline: none;
+  width: 265px;
+}
+
+#LoginFenster input::placeholder{
+  color: #2a3049;
+}
+
+#Kontoerstellen a{
+  text-decoration: none;
+  color: #2a3049;
+  margin-top: 5%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#AnmeldenB button{
+  margin-top: 15px;
+  height: 64px;
+  width: 140px;
+  border-radius:1000px;
+  border: nonen;
+  color: #2a3049;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+  background-color: white;
+  transition: 0.2s;
+}
+
+#AnmeldenB button:hover{
+  width: 200px;
+  background-color: #b9b9b9;
+}
+
+#AnmeldenB button:focus{
+  outline: none;
+  width: 200px;
+}
+
+#KontoErstellen button{
+  margin-top: 15px;
+  height: 64px;
+  width: 180px;
+  border-radius:1000px;
+  border: nonen;
+  color: #2a3049;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+  background-color: white;
+  transition: 0.2s;
+}
+
+#KontoErstellen button:hover{
+  width: 235px;
+  background-color: #b9b9b9;
+}
+
+#KontoErstellenbutton:focus{
+  outline: none;
+  width: 235px;
+}
+
+/*---------KontoErstellen--------*/
+
+#KontoErstellenFenster form{
+  height: 100%;
+  width: 50%;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #eceff1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.inputs_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#KontoErstellenFenster input{
+  height: 64px; 
+  width: 240px;
+  padding: 0px 25px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.212);
+  font-size: 20px;
+  color: #2a3049;
+  transition: 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 15px;
+
+}
+
+#KontoErstellenFenster input:hover{
+  background-color: #b9b9b9;
+}
+
+#KontoErstellenFenster input:focus{
+  outline: none;
+  width: 265px;
+}
+
+#KontoErstellenFenster input::placeholder{
+  color: #2a3049;
+}
+
+#Kontoerstellen a{
+  text-decoration: none;
+  color: #2a3049;
+  margin-top: 5%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#KontoErstellen button{
+  margin-top: 15px;
+  height: 64px;
+  width: 180px;
+  border-radius:1000px;
+  border: nonen;
+  color: #2a3049;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+  background-color: white;
+  transition: 0.2s;
+}
+
+#KontoErstellen button:hover{
+  width: 235px;
+  background-color: #b9b9b9;
+}
+
+#KontoErstellenbutton:focus{
+  outline: none;
+  width: 235px;
+}
+
+#Regiondropdown{
+  height: 64px; 
+  width: 280px;
+  margin: px;
+  padding: 0px 25px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.212);
+  font-size: 20px;
+  color: #2a3049;
+  transition: 0.2s;
+} 
+
+#ÜberschriftLand{
+  margin-right: 150px;
+  margin-bottom: -0px;
+  margin-top: 25px;
+}
